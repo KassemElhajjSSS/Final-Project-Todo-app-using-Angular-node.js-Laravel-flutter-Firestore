@@ -1,0 +1,15 @@
+<app-add-task
+    (onSubmitTask)="addTask($event)"
+></app-add-task>
+
+<!-- <div *ngIf="taskList; else errorTemplate"> -->
+    <app-task
+        *ngFor="let task of taskList"
+        [task]="task"
+        (onDeleteTask)="deleteTask(task)"
+    ></app-task>
+<!-- </div> -->
+
+<app-logout
+    (onSubmitLogout)="logout()"
+></app-logout>

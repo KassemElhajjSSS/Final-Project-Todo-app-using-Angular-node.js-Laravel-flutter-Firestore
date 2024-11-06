@@ -1,0 +1,17 @@
+/* login.component.css */
+.signup-link {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 0.9em;
+}
+
+.signup-link a {
+    color: #007bff; /* Link color */
+    text-decoration: none;
+}
+
+.signup-link a:hover {
+    text-decoration: underline;
+}
+
+

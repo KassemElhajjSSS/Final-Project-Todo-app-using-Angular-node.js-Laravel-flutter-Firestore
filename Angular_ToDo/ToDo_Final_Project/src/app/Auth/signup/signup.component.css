@@ -1,0 +1,17 @@
+/* login.component.css */
+.login-link {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 0.9em;
+}
+
+.login-link a {
+    color: #007bff; /* Link color */
+    text-decoration: none;
+}
+
+.login-link a:hover {
+    text-decoration: underline;
+}
+
+

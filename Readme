@@ -1,0 +1,12 @@
+To start laravel API servers: 
+>php artisan serve --host=0.0.0.0 --port=8000
+host is 0.0.0.0 so that it can accept all the portion of the IP
+
+To start node.js API:
+src>nodemon server.js
+
+To start Angular frontend:
+>ng serve
+
+To start flutter app:
+task_flutter_app>run with debug

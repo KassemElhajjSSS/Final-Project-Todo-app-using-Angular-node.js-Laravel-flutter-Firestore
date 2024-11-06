@@ -1,0 +1,20 @@
+<div class="TaskForm">
+    <form [formGroup] = "taskForm" (ngSubmit)="onSubmit()" class="Auth-form">
+        <h2>Add New Task</h2>
+        <div class="form-group">
+            <input
+              type="text"
+              id="taskContent"
+              formControlName="taskContent"
+              class="form-control"
+              [ngClass]="{ 'is-invalid': f['taskContent'].touched && f['taskContent'].invalid }"
+              placeholder="add task"
+            />
+            <div *ngIf="f['taskContent'].touched && f['taskContent'].invalid" class="invalid-feedback">
+                task is required
+            </div> 
+          </div>
+
+          <button type="submit" class="btn btn-primary" [disabled]="taskForm.invalid">Add Task</button>
+    </form>
+</div>

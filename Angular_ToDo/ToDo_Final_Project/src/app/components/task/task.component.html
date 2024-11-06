@@ -1,0 +1,8 @@
+<div class="task-container">
+    <div class="task-content">
+      <p>{{ task.taskContent }}</p>
+      <small>{{ task.createdAt | date:'short' }}</small>
+    </div>
+    <button class="delete-btn" (click)="onDelete()">Delete</button>
+  </div>
+  

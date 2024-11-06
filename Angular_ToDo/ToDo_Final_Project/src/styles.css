@@ -1,0 +1,46 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+    background-color: #121212; /* Dark background color */
+    color: #121212;            /* Set text color to white for readability */
+    margin: 0;                 /* Remove default body margin */
+    font-family: Arial, sans-serif;
+}
+
+.center-container {
+    background-color: #ffffff;
+    width: 300px;       
+    margin: 120px auto;    /* Centers horizontally */
+    padding: 20px;        
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* shadow */
+    border-radius: 8px;   /* rounded corners */
+    border: 1px solid #ccc; /* border */
+}
+
+.btn {
+    width: 100%;
+    padding: 10px;
+}
+
+.is-invalid {
+    border-color: red;
+}
+
+.invalid-feedback {
+    color: red;
+    font-size: 0.9em;
+}
+
+.Auth-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-control {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
