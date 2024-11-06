@@ -1,7 +1,7 @@
 // const {Task} = require('../../models/index')
 
 const admin = require('firebase-admin');
-const serviceAccount = require('../../finalprojectsss-firebase-adminsdk-p8jez-c9577404ac.json'); // Update with the path to your service account file
+const serviceAccount = require('../../'); // Update with the path to your service account file
 
 // Initialize Firebase and Firestore
 if (!admin.apps.length) {
